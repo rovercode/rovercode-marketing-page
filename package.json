@@ -1,0 +1,21 @@
+{
+  "name": "rovercode-marketing-page",
+  "version": "1.0.0",
+  "description": "https://rovercode.com",
+  "main": "hugo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/rovercode/rovercode-marketing-page.git",
+  "author": "rovercode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rovercode/rovercode-marketing-page/issues"
+  },
+  "homepage": "https://github.com/rovercode/rovercode-marketing-page#readme",
+  "dependencies": {
+    "gulp": "*",
+    "semantic-ui": "2.3.3"
+  },
+  "private": false
+}

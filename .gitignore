@@ -1,4 +1,17 @@
+# semantic source
+semantic/src/*
+!semantic/src/theme.config
+!semantic/src/themes/
+semantic/src/themes/*
+!semantic/src/themes/rovercode
+
+# node
+node_modules/
+
+# build output
 static/semantic/dist/
 public/
 
+# output
 .idea/
+.vscode/
