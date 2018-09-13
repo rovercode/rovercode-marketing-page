@@ -1,0 +1,24 @@
+language: python
+python:
+  - '3.6'
+install:
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.35/hugo_0.35_Linux-64bit.deb
+    -O /tmp/hugo.deb && sudo dpkg -i /tmp/hugo.deb
+  - pip install Pygments
+  - rm -rf public 2> /dev/null
+script:
+  - hugo
+deploy:
+  matrix:
+    - provider: s3
+      access_key_id: AKIAIIORSR4VN3YQY2YQ
+      secret_access_key:
+        secure: bIuj5fWwa4Xd+cRS+gC71jX0eeQtpUjCW8rvG92ZMS6/aydqTEX1AKnLtT1P5q/nruZ3wRnHClnqkK7RAvEKPAxiaqqq9RWbOMGSfLacYMG+77d3DlJWkjrDwb6Ws2ETeKMEjqy44PnsWFXj1qJbJtlPn7WkE3XxG8MUSSdb/FODxBTmVSrWzRhkU163HHtMBVoDWZ8Fb//2ncVIjtg7X3hG4tEC73sWTEQAYziqtVoxuUP5vvoqyja+kojAzZ2LqBinhhXDVHZ8lZ0myiQHrW1rHrQ3SaLl48IuvO4MOKRpgrGvKFdvm2aJRFhrcS77BJTFyXol2WKBhz8vEIMV94/Ngsab9asinXb/qXkXddmhS2V8ODet1jbfPtvPEqHWerBJu4tLD9YRHBLW8srKhox82Nq40uliqVZ0u7Z5sFfB/hFczavJkm8NcyXq4DtLvMxshCq//2BdlBj40t7S6F5eLVRL4t8HdGD7MpPAUA6JeGunQ2oGYGfbjDlMUBqdXLLWcwTrZAk8DGiMy0yfoX0kKZ38vYByLC1D0yavj8/J9t5evigJloysxAu7YXakeDOe0G7D1BQuM4j1hbPbB/xi9Lr7eEFBj936AkQ6T0SYfAIw+9Gh5DHyVxSIKznG2f98pxKpA2PPv8N4LT8Kj9WNb2JgvBggn0hufuZmIOE=
+      bucket: rovercode-marketing-page
+      local_dir: public
+      acl: public_read
+      skip_cleanup: true
+      region: us-east-2
+      on:
+        repo: rovercode/rovercode-marketing-page
+        branch: master
