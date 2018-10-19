@@ -1,0 +1,63 @@
+.masthead.segment {
+    background-image: url("/assets/images/header.png") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    min-height: 500px !important;
+}
+
+#main_logo {
+    width: 3.5em !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0em;
+}
+
+.masthead h1.ui.header {
+    margin-top: .5em !important;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.quote.stripe.segment .grid .column {
+    padding-top: 0em !important;
+    padding-bottom: 2em !important;
+}
+
+
+@font-face {
+    font-family: 'fantasque_sans_monobold';
+    src: url('/fonts/fantasquesansmono-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fantasque_sans_monoregular';
+    src: url('fantasquesansmono-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fantasquesansmono-regular-webfont.woff2') format('woff2'),
+         url('/fonts/fantasquesansmono-regular-webfont.woff') format('woff'),
+         url('fantasquesansmono-regular-webfont.ttf') format('truetype'),
+         url('fantasquesansmono-regular-webfont.svg#fantasque_sans_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h3 {
+    font-family: 'Lato' !important;
+    font-weight: bold !important;
+    letter-spacing: -0.05em !important;
+    font-size: 2.5em !important;
+    color: #FF045B !important;
+}
+
+p {
+    line-height: 1.5em !important;
+    margin-top: 1em !important;
+    
+}
+
+button {
+    background-color: red !important;
+}
