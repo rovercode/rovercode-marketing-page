@@ -3,13 +3,14 @@
     background-position: center !important;
     background-size: cover !important;
     min-height: 500px !important;
+    
 }
 
 #main_logo {
-    width: 3.5em !important;
-    margin-top: 0px !important;
+    width: 5em !important;
+    margin-top: 0em !important;
     margin-right: 0px !important;
-    margin-bottom: 0em;
+    margin-bottom: 0em !important;
 }
 
 .masthead h1.ui.header {
@@ -17,6 +18,10 @@
     margin-bottom: 0em;
     font-size: 4em;
     font-weight: normal;
+}
+
+h2{
+    margin-top: 0em !important;
 }
 
 .quote.stripe.segment .grid .column {
