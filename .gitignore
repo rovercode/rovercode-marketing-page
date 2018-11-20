@@ -4,6 +4,8 @@ semantic/src/*
 !semantic/src/themes/
 semantic/src/themes/*
 !semantic/src/themes/rovercode
+semantic/tasks/*
+semantic/gulpfile.js
 
 # node
 node_modules/
