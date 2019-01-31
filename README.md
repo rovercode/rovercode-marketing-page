@@ -7,6 +7,7 @@ It is built using [Hugo](https://gohugo.io/), though at the moment it is just a 
 For responsiveness, menus, and buttons, it uses [Semantic UI](https://semantic-ui.com/).
 
 ## Building
+0. Use [n](https://www.npmjs.com/package/n) to get node version 8.x.
 
 1. Install [Yarn](https://yarnpkg.com/en/docs/install) and [Hugo](https://gohugo.io/getting-started/installing/).
 
