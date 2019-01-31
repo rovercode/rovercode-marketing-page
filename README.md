@@ -7,6 +7,7 @@ It is built using [Hugo](https://gohugo.io/), though at the moment it is just a 
 For responsiveness, menus, and buttons, it uses [Semantic UI](https://semantic-ui.com/).
 
 ## Building
+0. Use [n](https://www.npmjs.com/package/n) to get node version 8.x.
 
 1. Install [Yarn](https://yarnpkg.com/en/docs/install) and [Hugo](https://gohugo.io/getting-started/installing/).
 
@@ -24,3 +25,7 @@ Images should go in static/assets/images.
 
 You can edit the Semantic UI theme at static/semantic/src/themes/rovercode/site.variables. Page-specific changes can be made in the CSS in index.html.
 
+## Trademark
+
+Logo and branding images are trademark of Rovercode LLC.
+They were created by [Louis Durrant](https://www.louisdurrant.co.uk/).
