@@ -24,3 +24,7 @@ Images should go in static/assets/images.
 
 You can edit the Semantic UI theme at static/semantic/src/themes/rovercode/site.variables. Page-specific changes can be made in the CSS in index.html.
 
+## Trademark
+
+Logo and branding images are trademark of Rovercode LLC.
+They were created by [Louis Durrant](https://www.louisdurrant.co.uk/).
