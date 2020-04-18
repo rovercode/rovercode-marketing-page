@@ -52,10 +52,10 @@
 --------------------*/
 
 @primaryColor        : @blue;
-@secondaryColor      : @black;
+@secondaryColor      : @pink;
 
 @lightPrimaryColor   : @lightBlue;
-@lightSecondaryColor : @lightBlack;
+@lightSecondaryColor : @lightPink;
 
 /*--------------
   Page Heading
@@ -229,7 +229,7 @@
 @blue             : #2185D0;
 @violet           : #6435C9;
 @purple           : #A333C8;
-@pink             : #E03997;
+@pink             : #FF0459;
 @brown            : #A5673F;
 @grey             : #767676;
 @black            : #1B1C1D;
@@ -244,7 +244,7 @@
 @lightBlue        : #54C8FF;
 @lightViolet      : #A291FB;
 @lightPurple      : #DC73FF;
-@lightPink        : #FF8EDF;
+@lightPink        : #FF528D;
 @lightBrown       : #D67C1C;
 @lightGrey        : #DCDDDE;
 @lightBlack       : #545454;
